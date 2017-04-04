@@ -1,0 +1,20 @@
+button {
+	height: 62px;
+	width: 340px;
+	background-color: #e75280;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 32px;
+	font-family: 'Signika', sans-serif;
+}
+
+p {
+	width: 112px;
+	height: 112px;
+	background-color: #eb4a3f;
+	background-image: url('bow.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 56px;
+}
