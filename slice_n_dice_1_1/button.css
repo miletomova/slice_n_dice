@@ -1,0 +1,10 @@
+button {
+	width: 338px;
+	height: 46px;
+	background-color: #e75280;
+	border: none;
+	border-radius: 10px;
+	font-size: 32px;
+	color: #fff;
+	font-family: 'Signika', sans-serif;
+}

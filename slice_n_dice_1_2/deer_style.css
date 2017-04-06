@@ -1,0 +1,10 @@
+a {
+	display: block;
+	width: 114px;
+	height: 114px;
+	background-color: #23cdb7;
+	background-image: url('deer.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+}
