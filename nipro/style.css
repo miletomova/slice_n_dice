@@ -1,0 +1,109 @@
+html {
+	font-size: 62.5%;
+}
+html, body, a, div, h1, h2, 
+h3, p, ul, li, img{
+	margin: 0;
+	padding: 0
+}
+
+body {
+	font-family: Lato, sans-serif;
+	color: #333;
+	font-size: 1.6rem
+	/*if we consider that the font
+	size of some elements is been often 
+	repetead we can put here a rule for
+	that  font-size*/
+}
+
+/*globally change the default 
+styling of all anchor and li tags*/
+a {
+	text-decoration: none;
+	display: block;
+	color: #8e8e8e;
+	text-transform: uppercase;
+}
+a:hover {
+	color: #333;
+}
+
+li {
+	display: inline-block;
+}
+
+.wrapper {
+	width: 1110px;
+	margin: 0 auto;
+}
+
+/***   HEADER  ***/
+#header {
+	background-color: #F36767
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 3rem;
+}
+
+#nav li {
+	text-transform: uppercase;
+	color: #a5a5a5
+}
+
+/*** SLIDER ***/
+/*to be removed later/*/
+#slider {
+	background-color: #7F6A6A;
+	height: 700px;
+}
+
+#slider h2 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 6rem;
+	line-height: 6rem;
+	position: relative;
+	top: 215px;
+	background-color: #C6EA1F
+}
+#slider p {
+	color: #fff;
+	font-family: Roboto, sans-serif;
+	font-size: 1.6rem
+}
+
+/*** WELCOME ***/
+
+#welcome h2 {
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+#welcome p {
+	color: #8e8e8e;
+	font-family: Roboto, sans-serif;
+}
+#welcome h3 {
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.8rem;
+}
+	#welcome .wrapper div div {
+		width: 255px;
+		float: left;
+		margin-right: 30px;
+		
+	}
+	#welcome .wrapper div:nth-of-type(4) {
+		margin-right: 0;
+	}
+	.pe-7s-diamond{
+		font-size: 3rem;
+		color: #0DF633;
+	}
+	.pe-7s-diamond:hover {
+		
+		color: #333;
+	}

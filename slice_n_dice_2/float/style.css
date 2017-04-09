@@ -1,0 +1,65 @@
+html, body, ul, li, a, div, p {
+	margin: 0;
+	padding: 0
+}
+ul {
+	background-color: #251010;
+	padding: 10px;
+	overflow: auto;
+}
+
+
+
+li {
+	list-style-type: none;
+	padding: 5px 8px;
+	margin: 5px;
+	float: right;
+}
+a {
+	padding: 5px;
+	background-color: #825C5C;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*USING AFTER*/
+
+#container {
+	width: 700px;
+	margin: 0 auto;
+	padding: 10px 0 10px 10px;
+	background: #aaa;
+	border: 1px solid #999;
+	
+}
+/*mind the width property*/
+
+p {
+	float: right;
+	width: 200px;
+	height: 200px;
+	background-color: #64B1CA;
+	margin: 0 5px 0 0;
+}
+#container:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/*CLEAR PROPERTY*/
+
+.block {
+	width: 200px;
+	height: 200px;
+}
+.float { float: left; }
+.clear { clear: left; }
+.pink { background: #ee3e64; }
+.blue { background: #44accf; }
+.green { background: #b7d84b; }
+.orange { background: #E2A741; }
