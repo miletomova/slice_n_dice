@@ -1,0 +1,36 @@
+ul, li, a, div {
+	margin: 0;
+	padding:0
+}
+ul {
+	width: 110px;
+	float: right;
+}
+li {
+	display: inline-block;
+	width: 32px;
+	margin: 5px;
+}
+li:first-of-type a {
+	display: block;
+	background: url('img/sprite.png') no-repeat -375px -560px;
+	width: 32px;
+	height: 28px;
+}
+li:last-of-type a{
+	display: block;
+	background: url('img/sprite.png') no-repeat -412px -560px;
+	width: 26px;
+	height: 33px;
+}
+#banner-2 {
+	width: 570px;
+	height: 283px;
+	background-color: #1b1b1b;	
+}
+#banner-2 div {
+	float: right;
+	background: url('img/sprite.png') no-repeat -5px -560px;
+	width: 365px;
+	height: 283px;
+}
