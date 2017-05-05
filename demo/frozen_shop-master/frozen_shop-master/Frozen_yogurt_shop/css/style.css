@@ -1,0 +1,280 @@
+html {
+	font-size: 62.5%;
+}
+
+html, div, ul, li, a, header, head, body, img, footer, h2, h3 {
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper {
+	width: 1600px;
+}
+
+/* -- header -- */
+
+header {
+	width: 1600px;
+	height: 120px;
+	background-color: #eeebec;
+}
+
+/* -- header, logo -- */
+#logo {
+	background: url('../sprite.png') no-repeat -1356px -1421px;
+	width: 138px;
+	height: 36px;
+	float: left;
+	margin-top: 43px;
+	margin-left: 360px;
+}
+/* -- end header logo -- */
+
+#menu, ul {
+	margin-right: 0px;
+	padding-top: 0px;
+	margin-top: 60px;
+}
+
+#menu, li, a {
+	text-decoration: none;
+	display: inline;
+	float: right;
+	margin-top: 0px;
+}
+
+
+#menu, a {
+	padding-right: 73px;
+	font-family: 'Lato bold', sans-serif;
+	font-size: 15px;
+	color: #afa3a4;
+	padding-top: 0px;
+}
+
+#menu, a:hover {
+	color: #c63763;
+}
+
+/* -- end header -- */
+
+/* -- main section -- */
+
+/* -- main_first section -- */
+#main_first {
+	background: url('../sprite.png') no-repeat -20px -1420px;
+	width: 1140px;
+	height: 864px;
+	margin-left: 360px;
+}
+
+/* -- end main_first section -- */
+
+/* -- main_second section -- */
+
+#main_second {
+	height: 261px;
+	background-color: #eae7e8;
+}
+
+h2:nth-of-type(1) {
+	margin-left: 360px;
+	font-family: 'Miriad Pro', sans-serif;
+	font-size: 18px;
+	color: #837171;
+	padding-top: 45px;
+}
+
+h2:nth-of-type(2) {
+	font-family: 'Miriad Pro', sans-serif;
+	font-size: 30px;
+	color: #e32a62;
+	margin-left: 360px;
+	padding-top: 26px;
+}
+
+h2:nth-of-type(3) {
+	font-family: 'Miriad Pro', sans-serif;
+	color: #7a6666;
+	font-size: 14px;
+	margin-left: 360px;
+	padding-top: 35px;
+}
+
+h2:nth-of-type(4) {
+	font-family: 'Miriad Pro', sans-serif;
+	color: #7a6666;
+	font-size: 14px;
+	margin-left: 360px;
+	margin-right: 690px;
+	width: 555px;
+	padding-top: 15px;
+}
+
+
+#pic {
+	background: url('../sprite.png') no-repeat -966px -832px;
+	width: 312px;
+	height: 208px;
+	float: right;
+	margin-right: 360px;
+	margin-top: 50px;
+}
+
+/* -- end main_second section -- */
+
+/* -- main_third section -- */
+
+#main_third {
+	height: 161px;
+	background-color: #c8c10d;
+}
+
+#product {
+	width: 110px;
+	height: 161px;
+	padding-top: 36px;
+	margin-left: 410px;
+	float: left;
+}
+
+#icon1 {
+	background: url('../sprite.png') no-repeat -1514px -1420px;
+	width: 40px;
+	height: 36px;
+	margin-left: 33px;
+}
+
+h3:nth-of-type(1) {
+	font-family: 'Miriad Pro', sans-serif;
+	font-size: 20px;
+	color: #fff;
+	padding-top: 22px;
+}
+
+#our_story {
+	width: 120px;
+	height: 161px;
+	float: left;
+	margin-left: 129px;
+
+}
+
+#icon2 {
+	background: url('../sprite.png') no-repeat -1514px -1476px;
+	width: 32px;
+	height: 35px;
+	margin-top: 37px;
+	margin-left: 20px;
+}
+
+#icon3 {
+	background: url('../sprite.png') no-repeat -1566px -1476px;
+	width: 32px;
+	height: 34px;
+	margin-left: 55px;
+	margin-top: -30px;
+}
+
+h3:nth-of-type(2) {
+	font-family: 'Miriad Pro', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+
+#flavors {
+	width: 95px;
+	height: 161px;
+	float: left;
+	margin-left: 129px;
+}
+
+#icon4 {
+	background: url('../sprite.png') no-repeat -1406px -1527px;
+	width: 27px;
+	height: 40px;
+	margin-left: 30px;
+	margin-top: 37px;
+}
+
+
+h3:nth-of-type(3) {
+	font-family: 'Miriad Pro', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+
+#our_location {
+	width: 155px;
+	height: 161px;
+	float: left;
+	margin-left: 111px;
+}
+
+#icon5 {
+	background: url('../sprite.png') no-repeat -1574px -1420px;
+	width: 25px;
+	height: 41px;
+	margin-top: 37px;
+	margin-left: 58px;
+}
+
+h3:nth-of-type(4) {
+	font-family: 'Miriad Pro', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+/* -- end main_third section -- */
+
+/* -- end main section -- */
+
+/* -- footer -- */
+
+#footer {
+	height: 30px;
+	width: 380px;
+	margin-left: 693px;
+}
+
+footer {
+	height: 200px;
+	background-color: #cb3362;
+}
+
+#footer_1 {
+	background: url('../sprite.png') no-repeat -1356px -1477px;
+	width: 31px;
+	height: 30px;
+	float: left;
+}
+
+#footer_2 {
+	background: url('../sprite.png') no-repeat -1457px -1477px;
+	width: 30px;
+	height: 30px;
+	margin-left: 60px;
+	float: left;
+}
+
+#footer_3 {
+	background: url('../sprite.png') no-repeat -1356px -1527px;
+	width: 30px;
+	height: 30px;
+	margin-left: 120px;
+	float: left;
+}
+
+#footer_4 {
+	background: url('../sprite.png') no-repeat -1407px -1477px;
+	width: 30px;
+	height: 30px;
+	margin-left: 160px;
+	float: left;
+}
+#text {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	padding-top: 125px;
+}
+
+/* -- end footer -- */
